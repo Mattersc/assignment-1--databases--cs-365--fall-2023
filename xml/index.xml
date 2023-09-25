@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<students>
+  <student ID = "1">
+    <studentID>1234567</studentID>
+    <firstName>Gordon</firstName>
+    <lastName>Sumner</lastName>
+    <middleName>Matthew</middleName>
+    <preferredName>Sting</preferredName>
+    <emailAddress>sting@thepolice.com</emailAddress>
+    <phoneNumber>212.123.4567</phoneNumber>
+    <statusYear>first year</statusYear>
+    <gpa>4</gpa>
+    <major>Music</major>
+    <minor>English</minor>
+    <statusTime>full-time</statusTime>
+    <advisorName>Andy Summers</advisorName>
+    <dateOfEnroll>08-25-1969</dateOfEnroll>
+    <dateOfGrad>05-01-1973</dateOfGrad>
+  </student>
+  <student ID = "2">
+    <studentID>4567890</studentID>
+    <firstName>Kim</firstName>
+    <lastName>Thayil</lastName>
+    <middleName></middleName>
+    <preferredName></preferredName>
+    <emailAddress>kim@soundgarden.com</emailAddress>
+    <phoneNumber>206.123.4567</phoneNumber>
+    <statusYear>second year</statusYear>
+    <gpa>3</gpa>
+    <major>Philosophy</major>
+    <minor>Music</minor>
+    <statusTime>full-time</statusTime>
+    <advisorName>Chris Cornell</advisorName>
+    <dateOfEnroll>08-25-1978</dateOfEnroll>
+    <dateOfGrad>05-01-1982</dateOfGrad>
+  </student>
+</students>

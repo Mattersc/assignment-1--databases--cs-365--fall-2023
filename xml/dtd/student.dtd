@@ -1,0 +1,31 @@
+<!--
+  Root Element = students
+  students must have at least one student element inside it
+-->
+  <!ELEMENT students (student+)>
+
+<!-- 
+  student must have at least one of each of the following elements
+-->
+  <!ELEMENT student (studentID, firstName, lastName, middleName, preferredName, emailAddress, phoneNumber, statusYear, gpa, major, minor, statusTime, advisorName, dateOfEnroll, dateOfGrad)>
+  <!ATTLIST student ID CDATA #REQUIRED>
+
+<!--
+  list of all elements in student 
+-->
+  <!ELEMENT studentID (#PCDATA)>
+  <!ELEMENT firstName (#PCDATA)>
+  <!ELEMENT lastName (#PCDATA)>
+  <!ELEMENT middleName (#PCDATA)>
+  <!ELEMENT preferredName (#PCDATA)>
+  <!ELEMENT emailAddress (#PCDATA)>
+  <!ELEMENT phoneNumber (#PCDATA)>
+  <!ELEMENT statusYear (#PCDATA)>
+  <!ELEMENT gpa (#PCDATA)>
+  <!ELEMENT major (#PCDATA)>
+  <!ELEMENT minor (#PCDATA)>
+  <!ELEMENT statusTime (#PCDATA)>
+  <!ELEMENT advisorName (#PCDATA)>
+  <!ELEMENT dateOfEnroll (#PCDATA)>
+  <!ELEMENT dateOfGrad (#PCDATA)>
+

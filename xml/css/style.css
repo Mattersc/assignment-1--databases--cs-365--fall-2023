@@ -1,0 +1,104 @@
+:root{
+  display: block;
+  padding: 12px;
+  text-align: center;
+}
+
+:root::before{
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  content: "Student Registry"; 
+  padding-bottom: 12px;
+}
+
+student {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+student > *{
+  display: block;
+  padding: 2px;
+}
+
+student:before{
+  content:"Student: "attr(ID);
+  font-weight: 600;
+}
+
+studentID:before{
+  content:"Student ID: ";
+  font-weight: 600;
+}
+
+firstName:before{
+  content:"First Name: ";
+  font-weight: 600;
+}
+
+lastName:before{
+  content:"Last Name: ";
+  font-weight: 600;
+}
+
+middleName:before{
+  content:"Middle Name: ";
+  font-weight: 600;
+}
+
+preferredName:before{
+  content:"Preferred Name: ";
+  font-weight: 600;
+}
+
+emailAddress:before{
+  content:"Email Address: ";
+  font-weight: 600;
+}
+
+phoneNumber:before{
+  content:"Phone Number: ";
+  font-weight: 600;
+}
+
+statusYear:before{
+  content:"Year status: ";
+  font-weight: 600;
+}
+
+advisorName:before{
+  content:"Advisor: ";
+  font-weight: 600;
+}
+
+dateOfEnroll:before{
+  content:"Enrollment Date: ";
+  font-weight: 600;
+}
+
+dateOfGrad:before{
+  content:"Graduation Date: ";
+  font-weight: 600;
+}
+
+gpa:before{
+  content:"GPA: ";
+  font-weight: 600;
+}
+
+major:before{
+  content:"Major: ";
+  font-weight: 600;
+}
+
+minor:before{
+  content:"Minor: ";
+  font-weight: 600;
+}
+
+statusTime:before{
+  content:"Time Status: ";
+  font-weight: 600;
+}
